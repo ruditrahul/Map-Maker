@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      .tile {
+        height: 64px;
+        width: 64px;
+        border: 1px solid black;
+        border-style: dashed;
+        background-color: #92d474;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Map Maker</h1>
+        <button>Create New Map</button>
+      </div>
+      <div class="header">
+        <h1>Select a map title</h1>
+        <div>
+          <div class="tile-image">
+            <img class="selected" src="./assets/mountain.png" alt="mountain" />
+          </div>
+          <div class="tile-image">
+            <img src="./assets/water.png" alt="water" />
+          </div>
+          <div class="tile-image">
+            <img src="./assets/player.png" alt="player" />
+          </div>
+          <div class="tile-image">
+            <img src="./assets/remove.png" alt="remove" />
+          </div>
+        </div>
+      </div>
+      <h2>Your Map</h2>
+      <section class="map">
+        <!-- row 1   -->
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+
+        <!-- row 2  -->
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+
+        <!-- row 3   -->
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+      </section>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

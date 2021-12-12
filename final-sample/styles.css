@@ -1,0 +1,54 @@
+* {
+  font-family: "Readex Pro", sans-serif;
+  background-color: whitesmoke;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.container,
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  margin: 10px 0px;
+  width: 500px;
+}
+
+.header > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.header > div > div {
+  cursor: pointer;
+}
+
+.selected {
+  border: 2px solid violet;
+}
+
+.map {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  width: 300px;
+  margin-top: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid green;
+  background-color: white;
+  color: green;
+  cursor: pointer;
+}
